@@ -1,0 +1,231 @@
+/*------css general--------*/
+/*----------------------POLICE------------------*/
+$rose : #AA3939;
+$roseclaire: #D88C8C;
+$jaune: #fed136;
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
+@font-face {
+    font-family: "montserreatlight";
+    src: url('font/Montserrat-Light.otf');
+    
+}
+@font-face {
+    font-family: "montserreateXlight";
+    src: url('font/Montserrat-ExtraLight.otf');
+    
+}
+@font-face {
+    font-family: "bebaslight";
+    src: url('font/bebaslight.otf');
+    letter-spacing: 1px;
+    
+}
+@font-face {
+    font-family: "caligraphie";
+    src: url('font/Blacksword.otf');
+    letter-spacing: 1px;
+    
+}
+
+@font-face {
+    font-family: "montserratregular";
+    src: url('font/Montserrat-Regular.otf');
+    
+}
+@font-face {
+    font-family: "montserratthin";
+    src: url('font/Montserrat-Thin.otf');
+    src: url('font/RofiTaste.ttf');
+}
+@font-face {
+    font-family: "basictitlefont";
+    src: url('font/basictitlefont.ttf');
+    
+}
+
+@font-face {
+    font-family: "amaticbold";
+    src: url('font/Amatic-bold.ttf');
+    
+}
+@font-face {
+    font-family: "amatic";
+    src: url('font/AmaticSC-Regular.ttf');
+    
+}
+
+
+
+/*----------------------POLICE------------------*/
+
+$black: #222;
+$white: #fff;
+$green: #6ead2b;
+$blue: #64a8d9;
+.cblue{
+  color: $blue;
+}
+
+.cgreen{
+  color: $green;
+}
+
+.cwhite{
+  color: $white;
+}
+
+.cblack{
+  color: $black;
+}
+
+
+
+
+
+.bcgblue{
+  background-color : $blue;
+}
+
+.bcggreen{
+  background-color: $green;
+}
+
+.bcgwhite{
+  background-color: $white;
+}
+
+.bcgblack{
+  background-color: $black;
+}
+
+
+
+/*---------------margin------------*/
+    $mb:0;
+    @while $mb < 105{
+      .mb#{$mb}{
+        margin-bottom: #{$mb}px;
+    }
+
+    $mb: $mb + 5;
+}
+   $mt:0;
+    @while $mt < 105{
+      .mt#{$mt}{
+        margin-top: #{$mt}px;
+    }
+
+    $mt: $mt + 5;
+}
+   $ml:0;
+    @while $ml < 105{
+      .ml#{$ml}{
+        margin-left: #{$mb}px;
+    }
+
+    $ml: $ml + 5;
+}
+   $mr:0;
+    @while $mr < 105{
+      .mr#{$mr}{
+        margin-right: #{$mr}px;
+    }
+
+    $mr: $mr + 5;
+}
+
+/*-----------padding----------*/
+
+   $pb:0;
+    @while $pb < 55{
+      .pb#{$pb}{
+        padding-bottom: #{$pb}px;
+    }
+
+    $pb: $pb + 5;
+}
+
+
+
+   $pt:0;
+    @while $pt < 55{
+
+      .pt#{$pt}{
+        padding-top: #{$pt}px;
+    }
+
+    $pt: $pt + 5;
+}
+
+
+
+   $pl:0;
+    @while $pl < 55{
+        
+      .pl#{$pl}{
+        padding-left: #{$pl}px;
+    }
+
+    $pl: $pl + 5;
+}
+
+
+
+
+   $pr:0;
+    @while $pr < 55{
+        
+      .pr#{$pr}{
+        padding-right: #{$pr}px;
+    }
+
+    $pr: $pr + 5;
+}
+
+/*------largeur-------*/
+
+.w100{width: 100%;}
+/*------MENU-----*/
+.relative {
+  position: relative;
+}
+.navbar-brand {
+    font-family: 'caligraphie';
+    font-size: 32px;
+    color: $jaune!important;
+}
+ul.navbar-nav{
+      font-family: 'bebaslight';
+    font-size: 20px;
+    font-weight: bold;
+    color: $jaune;
+}
+h1{
+  font-family: 'bebaslight';
+  font-size: 40px;
+}
+h2,h3,h4,h5,h6,div{
+  font-family: 'montserreatlight';
+  color: $black;
+}
+p,a{
+  font-family: 'montserreateXlight';
+  color: $black;
+}
+.navbar-dark .navbar-nav .nav-link{ 
+color: $white;
+ }
+ .bg-dark{
+  background-color: $black!important;
+ }
+
+ .card-footer{
+      background-color: $jaune;
+      a{
+        color:$white;
+        font-family: 'montserratregular';
+      }
+ }

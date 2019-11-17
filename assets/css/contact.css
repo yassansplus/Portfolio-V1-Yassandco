@@ -1,0 +1,12 @@
+input, textarea {
+border: none!important;
+padding-left: 0px!important;
+    border-bottom: 6px solid #222 !important;
+    border-radius: 0px !important;
+    font-size: 26px !important;	
+    font-family: 'montserreateXlight' !important;
+}
+.basictitlefont{
+	font-family: 'basictitlefont';
+	font-size: 33px; 	
+}

@@ -1,0 +1,24 @@
+.download,.linkedin {font-size: 45px;
+    padding: 19px 12px 17px 22px;
+    background: #fed136;
+    COLOR: WHITE;
+    border-radius: 60%;
+    transition: all linear 0.2s;
+    &:hover {
+    	background: #222;
+    }
+
+}
+.linkedin {
+	
+	    padding: 15px 26px 22px 27px;
+	}
+
+.titledownload{
+	font-family: 'montserratlight';
+}
+a{
+	&:hover{
+		text-decoration: none;
+	}
+}
